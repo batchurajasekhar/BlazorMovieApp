@@ -8,8 +8,6 @@ This sample app is the completed app for the Blazor Web App Movies tutorial:
 
 The sample app is configured to match the Visual Studio version of the article and requires EF Core database migrations to create the SQL Server database. If you're not using Visual Studio or you don't intend to use a SQL Server database, you can still reference the code in this sample app while reading the article.
 
-1. Clone this repository or download a ZIP archive of the repository. For more information, see [How to download a sample](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core#how-to-download-a-sample).
-
 1. In Visual Studio, use [Visual Studio Connected Services](https://learn.microsoft.com/visualstudio/azure/overview-connected-services) to update the database, which creates and updates the database using the migrations in the `Migrations` folder of the sample app.
    
    a. In **Solution Explorer**, double-click **Connected Services**. In the **SQL Server Express LocalDB** area of **Service Dependencies**, select the ellipsis (`...`) followed by **Update database**.
